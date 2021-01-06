@@ -42,6 +42,7 @@ public class OrderController {
 		return ResponseEntity.created(uri).body(dto);
 	}
 	
+	//alteração de STATUS do pedido/order
 	@PutMapping("/{id}/delivered")
 	public ResponseEntity <OrderDTO> setDelivered(@PathVariable Long id) {
 		OrderDTO dto = service.setDelivered(id);
