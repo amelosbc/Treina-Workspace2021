@@ -13,7 +13,7 @@
   }
   
   .home-title {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 55px;
     line-height: 58px;
@@ -23,6 +23,7 @@
 }
   
   .home-subtitle {
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 24px;
     line-height: 33px;
@@ -32,10 +33,13 @@
   }
   
   .home-btn-order {
+    font-family: 'Open Sans', sans-serif;
     background-color: var(--primary-color);
     border-radius: 10px;
     height: 70px;
     width: 235px;
+    left: 200px;
+    top: 536px;
     display: inline-block;
     display: flex;
     align-items: center;
@@ -43,7 +47,7 @@
     font-weight: bold;
     font-size: 24px;
     letter-spacing: -0.015em;
-    color: #FFF;
+    color: #aaa;
   }
   
   .home-btn-order:hover {
