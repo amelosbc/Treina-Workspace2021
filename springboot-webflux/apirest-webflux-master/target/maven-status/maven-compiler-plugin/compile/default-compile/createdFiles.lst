@@ -1,0 +1,8 @@
+com\apirest\webflux\WebfluxApplication.class
+com\apirest\webflux\services\PlaylistService.class
+com\apirest\webflux\services\PlaylistServiceImpl.class
+com\apirest\webflux\controller\PlaylistController.class
+com\apirest\webflux\document\Playlist.class
+com\apirest\webflux\PlaylistHandler.class
+com\apirest\webflux\repository\PlaylistRespository.class
+com\apirest\webflux\PlaylistRouter.class
