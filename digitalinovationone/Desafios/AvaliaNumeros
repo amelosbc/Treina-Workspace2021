@@ -1,0 +1,39 @@
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+public class AvaliaNumeros{
+	
+    public static void main(String[] args) throws IOException {
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));      
+      StringTokenizer st;
+      
+      	int []valor1 = new int[5];
+	      int par=0, imp=0, pos=0, neg=0;
+   	    
+   	    for (int i = 0 ; i <5 ; i++) {
+          st = new StringTokenizer(br.readLine());
+          valor1[i] = Integer.parseInt(st.nextToken());
+
+    		    //valor1[i] = Integer.parseInt(st.nextToken());
+  		 
+	          if( (valor1[i] % 2) ==0 ) // resto 0
+	              par++;
+      		  else
+      		      imp++;
+
+      	    if( valor1[i] > 0) // resto 0
+      	       pos++;
+      		  else if (valor1[i] == 0)
+      		     continue;
+      		  else
+      		     neg++; 		    
+    	  }
+    	  System.out.println(par + " valor(es) par(es)");
+    	  System.out.println(imp + " valor(es) impar(es)");
+    	  System.out.println(pos + " valor(es) positivo(s)");
+    	  System.out.println(neg + " valor(es) negativo(s)");
+    }
+ }
